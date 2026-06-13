@@ -37,7 +37,7 @@ Tuki — 설정 화면<br/>
 <img src="docs/images/tuki-manager.png" alt="Tuki 관리 화면" width="720">
 
 Tuki — 메뉴바 팝오버<br/>
-<img src="docs/images/tuki-popover.png" alt="Tuki 메뉴바 팝오버" width="720">
+<img src="docs/images/tuki-popover.png" alt="Tuki 메뉴바 팝오버" width="693">
 
 ## Features
 
