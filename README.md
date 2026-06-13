@@ -14,6 +14,14 @@ To open the demo on macOS:
 1. Open the DMG and move `Tuki` to `Applications`.
 2. In Finder, Control-click or right-click `Tuki`.
 3. Choose `Open`, then choose `Open` again.
-4. If macOS still blocks it, go to System Settings > Privacy & Security and allow `Tuki` to open.
+4. If macOS shows `"Tuki" Not Opened` with only `Done` and `Move to Trash`, choose `Done`.
+5. Go to System Settings > Privacy & Security, then allow `Tuki` in the Security section.
+
+If macOS still blocks the app after that, advanced users can remove the download quarantine flag:
+
+```sh
+xattr -dr com.apple.quarantine /Applications/Tuki.app
+open /Applications/Tuki.app
+```
 
 Only open this demo if you downloaded it from this repository.
